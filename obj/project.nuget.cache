@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hrvZFE86om0=",
+  "success": true,
+  "projectFilePath": "F:\\games\\For The King\\BepInEx\\plugins\\FTKModTemplate\\FTKModTemplate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dS1lva\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\dS1lva\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net35\\1.0.3\\microsoft.netframework.referenceassemblies.net35.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

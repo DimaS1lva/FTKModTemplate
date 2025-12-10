@@ -1,0 +1,9 @@
+{
+  "name": "FTKModTemplate",
+  "description": "A template mod for For The King with a test class",
+  "website_url": "",
+  "version_number": "0.1.0",
+  "dependencies": [
+    "BepInEx-BepInExPack_ForTheKing-5.4.19"
+  ]
+}

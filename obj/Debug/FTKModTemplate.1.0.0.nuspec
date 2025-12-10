@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FTKModTemplate</id>
+    <version>1.0.0</version>
+    <authors>FTKModTemplate</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework=".NETFramework3.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\games\For The King\BepInEx\plugins\FTKModTemplate\bin\net35\FTKModTemplate.dll" target="lib\net35\FTKModTemplate.dll" />
+  </files>
+</package>

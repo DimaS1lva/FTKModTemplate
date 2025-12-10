@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+	  
+    <!-- Имя итоговой DLL -->
+    <AssemblyName>FTKModTemplate</AssemblyName>
+    <RootNamespace>FTKModTemplate</RootNamespace>
+
+    <!-- Куда собирать -->
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>  <ItemGroup>
+    <!-- BepInEx -->
+    <Reference Include="BepInEx">
+      <HintPath>..\..\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>..\..\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="FTKAPI">
+      <HintPath>..\FTKAPI.dll</HintPath>
+    </Reference>
+	  
+	<Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\FTK_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+
+    <!-- Основные библиотеки игры (из FTK_Data\Managed) -->
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\FTK_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\FTK_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\FTK_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\FTK_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

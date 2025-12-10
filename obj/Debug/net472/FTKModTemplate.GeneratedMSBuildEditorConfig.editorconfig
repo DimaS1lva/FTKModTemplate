@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = FTKModTemplate
+build_property.ProjectDir = F:\games\For The King\BepInEx\plugins\FTKModTemplate\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
